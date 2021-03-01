@@ -32,6 +32,7 @@ header{
 .intro::after{
     content: "";
     position: absolute;
+    top: 0%;
     height: 70%;
     width: 100%;
     background: url("maxresdefault.jpg") center center;
