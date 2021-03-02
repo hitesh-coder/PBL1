@@ -9,6 +9,8 @@
     <script src="https://kit.fontawesome.com/2a01523bfd.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="favicon.png" type="image/png">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Project Based Learning</title>
 </head>
 <body>
@@ -22,7 +24,7 @@
         <div class="main_card">
 
             <a href="nikita.html">
-                <div class="card card1">
+                <div class="card card1" data-aos="fade-up">
                     <div class="card_content card_content1">
                         <img src="download.png" alt="">
                         <div class="title">
@@ -40,7 +42,7 @@
             </a>
 
             <a href="shruti.html">
-                <div class="card card2">
+                <div class="card card2" data-aos="fade-up">
                     <div class="card_content card_content2">
                         <img src="iot-sensors.png" alt="">
                         <div class="title">
@@ -58,7 +60,7 @@
             </a>
 
             <a href="mrunali.html">
-                <div class="card card3">
+                <div class="card card3" data-aos="fade-up">
                     <div class="card_content card_content3">
                         <img src="iot-sensors.png" alt="">
                         <div class="title">
@@ -76,7 +78,7 @@
             </a>
 
             <a href="hitesh.html">
-                <div class="card card4">
+                <div class="card card4" data-aos="fade-up">
                     <div class="card_content card_content4">
                         <img src="download.png" alt="">
                         <div class="title">
@@ -98,4 +100,12 @@
 </body>
 
 <script src="main.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        offset: 250,
+        once: true,
+        duration: 800
+    });
+</script>
 </html>
